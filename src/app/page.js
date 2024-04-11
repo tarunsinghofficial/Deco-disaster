@@ -41,16 +41,13 @@ export default function Home() {
             <p className="text-gray-400 w-[20em] lg:w-[35em] text-md md:text-lg lg:text-xl mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus, veritatis numquam voluptas, error eius consectetur totam laborum voluptatibus voluptates ratione quam in! In, ut!</p>
             <div className="mt-10">
               <div onClick={handleOpen} className="font-sans flex items-center justify-center w-32 h-14 bg-[#6056B6] rounded-full text-white text-2xl font-semibold hover:cursor-pointer">Login</div>
-              <Modal
-                open={modalOpen}
-                onClose={handleClose}
-                aria-labelledby="modal-modal-title"
-                aria-describedby="modal-modal-description"
-              >
+             
+              <Modal open={modalOpen} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description" >
                 <Box sx={style}>
                   <LoginCard />
                 </Box>
               </Modal>
+            
             </div>
           </div>
           <div className="mt-10">
