@@ -2,7 +2,7 @@
 import React from 'react'
 import marvel from "../assets/marvelbg.png"
 import Link from 'next/link'
-import "./style.css"
+import "../globals.css"
 import Box from '@mui/material/Box';
 import { useState } from 'react'
 import Image from 'next/image'

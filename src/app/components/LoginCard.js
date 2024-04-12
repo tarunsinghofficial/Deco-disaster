@@ -1,7 +1,7 @@
 import React from 'react'
 import marvel from "../assets/marvelbg.png"
 import Link from 'next/link'
-import "./style.css"
+import "../globals.css"
 
 function LoginCard() {
     return (
